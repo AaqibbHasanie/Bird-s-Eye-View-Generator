@@ -7,7 +7,7 @@ https://pern-my.sharepoint.com/:v:/g/personal/24100233_lums_edu_pk/ER8tUMO8NmhLt
 
 
 ## Important Algorithms
-**1) YOLOP (You Only Look Once for Roads and Objects with Homography)**
+**1) YOLOP (You Only Look Once for Roads and Objects)**
 
 YOLOP is a custom adaptation of the YOLO (You Only Look Once) object detection model, tailored specifically for road segmentation and object detection. By employing a pre-trained YOLO model from the hustvl repository, we obtain masks for different objects within the video frames. Subsequently, these masks are converted into binary representations, where roads are designated as 1 and other elements as 0. This binary mask is then overlaid onto each frame of the video, resulting in an enhanced video with segmented roads highlighted.
 
